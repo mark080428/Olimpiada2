@@ -129,6 +129,11 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
+.about-text a {
+    text-decoration: none;
+    color: rgb(247, 239, 239);
+}
+
 .about-right-img{
     width: 100%;
 }
