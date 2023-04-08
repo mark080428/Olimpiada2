@@ -231,6 +231,11 @@
     margin: 30px 0;
 }
 
+.telefon {
+    color: white;
+    text-decoration: none;
+}
+
 .part1, .part3  {
     background: url('img/test.PNG') center/cover no-repeat;
     flex-basis: 300px;
