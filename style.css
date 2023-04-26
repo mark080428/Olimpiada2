@@ -127,6 +127,7 @@
     background: #783D3D;
     color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
 }
 
 .about-text a {
@@ -333,7 +334,7 @@
         font-size: 16px;
     }
     .adv-card-text{
-        font-size: 40px;
+        font-size: 25px;
     }
     .adv-card-number{
         font-size: 50px;
@@ -342,11 +343,22 @@
         font-size: 30px;
        
     }
-    .company-info-text {
-        font-size: 16px;
-    }
 
     .part1, .part3 {
         display: none;
+    }
+}
+
+@media(max-width:500px) {
+    .adv-card-text {
+        font-size: 20px;
+    }
+
+    .header-img img {
+        height: 70%;
+    }
+
+    .about .advantages {
+        padding: 0;
     }
 }
